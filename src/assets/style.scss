@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --border: #6b6b6b;
+
+  --bgHeader: #ffffff;
+  --borderHeader: #c2c2c2;
+  --shadowHeader: #00000047;
+
+  --boardCol: #e6e6e6;
+  --bgCard: #e6e6e6;
+
+  --bgForm: #e6e6e6;
+  --bgInputForm: #ffffff;
+  --bgInputFormHover: rgb(250, 250, 250);
+  --bgComment: #dadada;
+
+  --bgScroll: #b1b1b1;
+  --bgScrollThumb: #5a5a5a;
+
+  --dragOverBg: rgba(0, 0, 0, 0.03);
+
+  --radius: 0.8rem;
+  --smooth: 0.4s;
+  --overlay: rgba(0, 0, 0, 0.5);
+}
+
+.dark {
+  --border: #424242;
+  --text: #ffffff;
+  --bg: #000000;
+
+  --boardCol: #333333;
+  --bgCard: #333333;
+
+  --bgForm: #333333;
+  --bgInputForm: #1d1d1d;
+  --bgInputFormHover: rgb(29, 29, 29, 0.8);
+  --bgComment: #575757;
+
+  --bgHeader: #222222;
+  --borderHeader: #222222;
+  --shadowHeader: #ffffff54;
+
+  --bgScroll: #2c2c2c;
+  --bgScrollThumb: #cacaca;
+
+  --dragOverBg: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  letter-spacing: .1rem;
+  transition: var(--smooth);
+  padding: 13px;
+  font-weight: 300;
+  height: 100vh;
+  overflow-x: hidden;
+}
