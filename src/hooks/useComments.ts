@@ -1,4 +1,4 @@
-import { nextTick, onMounted, onUpdated, ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import type { CardProps, IComment } from '../utils/types'
 import { v4 as uuid } from 'uuid'
 import { useKanbanStore } from '../stores/kanban.store'
